@@ -1,0 +1,113 @@
+/*font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .navbar{
+    background-color: #00ADEF !important;
+}
+
+
+*::after,
+*::before,
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;   
+}
+
+.shop{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*main*/
+.container-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+    
+}
+
+.item:hover{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.info-producto{
+    padding: 15px 30px;
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.info-producto{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-producto button{
+     border: none;
+     background-color: orange;
+     color: #ffff;
+     padding: 15px 10px;
+     cursor: pointer;
+}
+
+/*footer*/
+
+/*footer*/
+
+.footer {
+    border-top: 1px solid #ffffff ;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 53);
+    justify-content: center;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    margin-right: 35px;
+    
+}
+
+.links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+
+
+}

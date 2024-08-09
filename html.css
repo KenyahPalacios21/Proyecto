@@ -1,0 +1,96 @@
+/*font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .navbar{
+    background-color: #00ADEF !important;
+}
+
+
+.container{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.uno{
+    width: 50%;
+    padding-right: 150px;
+
+}
+
+.uno h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.uno p{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.uno span{
+    color: orange;
+}
+
+.btn-2{
+    display: inline-block;
+    padding: 8px 45px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-2:hover{
+    background-color: orangered;
+}
+
+.img{
+    width: 250px;
+    margin-right: 20px;
+}
+
+/*footer*/
+
+.footer {
+    border-top: 1px solid #ffffff ;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 53);
+    justify-content: center;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    margin-right: 35px;
+    
+}
+
+.links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
